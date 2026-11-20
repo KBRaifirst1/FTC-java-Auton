@@ -41,8 +41,8 @@ public class Test extends LinearOpMode {
     static final boolean    POLLEN              = false;
     static final double     mainWheelTicksPerRev= 28;   // Bare REV-41-1291 counts/rev
     static final double     driveWheelDiameter  = 2.95; // 75mm REV mecanum wheel (use 3.94 if 100mm)
-    static final double     driveWheelRatioNom  = 12;   // Driven gear/sprocket (wheel side)
-    static final double     driveWheelRatioDom  = 1;    // Driving gear/sprocket (motor side)
+    static final double     driveWheelRatioNom  = 1;   // Driven gear/sprocket (wheel side)
+    static final double     driveWheelRatioDom  = 12;    // Driving gear/sprocket (motor side)
     static final double     robotTrackWidth     = 14.0; 
 
 
